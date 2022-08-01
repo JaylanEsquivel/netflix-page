@@ -1,3 +1,3 @@
-# Replica da pagina da NetFlix
+# Replica da página da NetFlix
 
-projeto de replicar pagina inicial da netflix.
+projeto de replicar página inicial da netflix.
