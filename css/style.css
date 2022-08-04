@@ -15,24 +15,79 @@ body{
     margin: 0;
 }
 
+
+a:hover{
+    text-decoration: underline;
+}
+
 .container{
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    padding: 10px;
     width: 100%;
 }
 
-.navbar, .mainview{
+.mainview{
     display: flex;
     flex-direction: column; 
-    align-items: center;
     justify-content: center;
-    width: 90%;
-    min-height: 100px;
-    margin: 10px 0px; 
-    padding: 10px;
+    width: 100%;
+    min-height: 200px;
+    margin:  0px; 
+    padding: 0px;
+    background-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0px; 
+    padding: 20px 48px;
+    color:#fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(9,9,9,1) 0%, rgba(6,6,6,0.25253851540616246) 8%);
+}
+
+.login-block{
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.logo-principal{
+    width: 100px;
+}
+
+.ative{
+    color:#fff !important;
+}
+
+.list-nav{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 8px;
+    margin-left: 30px;
+}
+.list-nav li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.list-nav li a{
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.list-nav li a:hover {
+    color: #b3b3b3;
+    text-decoration: none;
 }
 
 .footer{
@@ -51,12 +106,16 @@ body{
     justify-content: start;
     color: #fff;
     width: 100%;
+    padding-left: 10px;
+}
+
+.social-media a{
+    padding-right: 30px;
 }
 
 .social-media a i{
     color: #fff;
-    font-size: 25px;
-    padding-left: 20px;
+    font-size: 23px;
     margin: 20px 0px; 
 }
 
@@ -69,6 +128,18 @@ body{
     padding: 20px 0px;
 }
 
+.botoes-uteis button{
+    background-color: transparent;
+    padding: 8px 8px;
+    color: #808080;
+    border: 1px solid #808080;
+}
+
+.botoes-uteis button:hover{
+    color: #fff;
+}
+
+
 .marca-site-copyright{
     display: flex;
     align-items: start;
@@ -80,13 +151,12 @@ body{
     padding: 10px 0px;
 }
 
-
 .links-uteis{
     display: flex;
     align-items: start;
     justify-content: start;
     width: 100%;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .links-uteis .links-uteis-links {
@@ -98,10 +168,15 @@ body{
     padding: 0;
     width: 100%;
 }
+
 .links-uteis .links-uteis-links li{
     box-sizing: border-box;
     flex: 0 0 50%;
     list-style-type: none;
     margin-bottom: 16px;
     flex-basis: 25%;
+}
+
+.links-uteis .links-uteis-links li a{
+    color: #808080;
 }
