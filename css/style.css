@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #141414;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar, .mainview{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 100px;
+    margin: 10px 0px; 
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 100px;
+    color: #808080;
+}
+
+.social-media{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: #fff;
+    width: 100%;
+}
+
+.social-media a i{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 20px;
+    margin: 20px 0px; 
+}
+
+.botoes-uteis{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.marca-site-copyright{
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.marca-site-copyright p{
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+
+.links-uteis{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.links-uteis .links-uteis-links {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 13px;
+    padding: 0;
+    width: 100%;
+}
+.links-uteis .links-uteis-links li{
+    box-sizing: border-box;
+    flex: 0 0 50%;
+    list-style-type: none;
+    margin-bottom: 16px;
+    flex-basis: 25%;
+}
