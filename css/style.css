@@ -36,8 +36,47 @@ a:hover{
     min-height: 200px;
     margin:  0px; 
     padding: 0px;
-    background-color: #fff;
 }
+
+/* PARTE DO HEADER DO SITE */
+.background-video{
+    width: 100%;   
+    min-height: 450px;   
+    position: relative;  
+    overflow: hidden;  
+}
+
+
+.background-video iframe{  
+    top: 0px;
+    position: absolute;  
+    min-height: 550px;
+    margin-top: -55px;
+} 
+
+.slides{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.bloco{
+    display: flex;
+    border: 1px solid rgb(252, 252, 252);
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bloco h3{
+    font-size: 1.4vw;
+    color: #e5e5e5;
+}
+
+/* PARTE DO HEADER DO SITE */
+
 
 .navbar{
     display: flex;
