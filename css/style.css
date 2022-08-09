@@ -64,6 +64,7 @@ a:hover{
 
 .bloco{
     display: flex;
+    flex-direction: column; 
     border: 1px solid rgb(252, 252, 252);
     min-height: 100px;
     width: 100%;
@@ -73,7 +74,77 @@ a:hover{
 .bloco h3{
     font-size: 1.4vw;
     color: #e5e5e5;
+    margin-bottom: 15px;
 }
+
+#descricao{
+    position: absolute;
+    width: 50%;
+    min-height: 550px;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    /* alinhamento horizontal */
+    justify-content: center;    /* alinhamento vestical */
+    color: #fff;
+}
+
+#descricao .bloco-text{
+    padding-left: 100px;
+}
+
+#titulo-capa{
+    font-size: 30px;
+}
+
+#text-capa{
+    font-size: 15px;
+    padding: 20px 0px;
+    width: 90%;
+}
+
+#btt-assistir{
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #141414;
+    margin: 10px 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#btt-assistir:hover{
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+#btt-info{
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: #6d6d6e;
+    color: #fff;
+    margin: 10px 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#btt-info:hover{
+    background-color: #6d6d6ee7;
+}
+
+
+
+.item{
+    background-color: #fff;
+    min-height: 100px;
+}
+
+
+
+
 
 /* PARTE DO HEADER DO SITE */
 
