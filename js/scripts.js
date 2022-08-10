@@ -4,6 +4,16 @@ $(document).ready(function(){
         
 });		
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    $(".navbar").css('background-color', '#000');
+  } else {
+    $(".navbar").css('background-color', '#33333361');
+  }
+}
+
 
 function buscar_generos(){
 
