@@ -65,10 +65,9 @@ a:hover{
 .bloco{
     display: flex;
     flex-direction: column; 
-    border: 1px solid rgb(252, 252, 252);
     min-height: 100px;
     width: 100%;
-    padding: 10px;
+    padding: 5px 50px;
 }
 
 .bloco h3{
@@ -143,11 +142,36 @@ a:hover{
 }
 
 
+button span{
+    font-size: 70px;
+    color:rgba(255, 255, 255, 0.76);
+}
 
+button span:hover{
+    color: #fff;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px !important;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /* PARTE DO HEADER DO SITE */
-
 
 .navbar{
     display: flex;
